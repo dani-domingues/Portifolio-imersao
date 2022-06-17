@@ -5,4 +5,8 @@
   main {
     flex-direction: column;
   }
+
+  .foto {
+    margin-bottom: 5px;
+  }
 }
