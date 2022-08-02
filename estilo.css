@@ -85,16 +85,17 @@ p {
 }
 
 .t60 {
-  color: #f2f2f2;
+  color: #514e57;
 }
 
 body {
-  background-color: #353340;
+  background-color: #cfc7dd;
   margin: 0;
 }
 
 header {
-  background-image: linear-gradient(to bottom, #615cf2, #502d73);
+  /*background-image: linear-gradient(to bottom, #a080d7, #cfc7dd);*/
+  background-color: #a080d7;
   padding: 32px 64px;
 }
 .icone00 {
@@ -109,7 +110,7 @@ header {
 }
 
 .foto {
-  border: 4px solid#3FBF83;
+  border: 4px solid#000000;
   border-radius: 50%;
   margin-bottom: -120px;
   margin-right: 24px;
@@ -120,7 +121,6 @@ header {
 main {
   display: flex;
   padding: 40px 70px;
-  color: #998da6;
 }
 
 .linha {
@@ -140,12 +140,12 @@ main {
 }
 
 .Experiencias .linha {
-  border-color: #a6055d;
+  border-color: #a080d7;
   margin-left: 60px;
 }
 
 .Formacao .linha {
-  border-color: #a6055d;
+  border-color: #a080d7;
   margin-left: 60px;
 }
 
@@ -158,7 +158,7 @@ main {
 }
 
 .certificados .linha {
-  border-color: #a6055d;
+  border-color: #a080d7;
 }
 
 .coluna-menor {
@@ -179,6 +179,10 @@ main {
 
 .icone {
   margin-bottom: -10px;
+}
+
+.certificados .icone {
+  color: #bebfb8;
 }
 
 .coluna-menor li {
@@ -232,7 +236,7 @@ main {
   width: 20%;
   margin-top: 8px;
   height: 4px;
-  background-color: #a6039b;
+  background-color: #a080d7;
 }
 
 .incompleto {
@@ -260,7 +264,7 @@ main {
 .projeto {
   width: 392px;
   padding: 24px;
-  background-color: #f9f9f5;
+  background-color: #ffffff;
   border-radius: 16px;
   margin: 12px;
 }
@@ -268,8 +272,8 @@ main {
 .projeto a {
   display: inline-block;
   text-decoration: none;
-  background-color: #3fbf83;
-  color: black;
+  background-color: #a080d7;
+  color: #ffffff;
   padding: 8px 24px;
   font-family: "Open Sans", sans-serif;
   border-radius: 4px;
@@ -294,8 +298,8 @@ main {
 }
 
 footer {
-  background-color: #a6039b;
-  color: #f9f9f5;
+  background-color: #a080d7;
+  color: #514e57;
   padding: 57.6px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
