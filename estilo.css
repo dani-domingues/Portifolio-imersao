@@ -85,20 +85,16 @@ p {
 }
 
 .t60 {
-  color: rgba(0, 0, 0, 0.6);
+  color: #f2f2f2;
 }
 
 body {
-  background-color: #8af3b8;
+  background-color: #353340;
   margin: 0;
 }
 
 header {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(140, 7, 69),
-    rgb(166, 3, 155)
-  );
+  background-image: linear-gradient(to bottom, #615cf2, #502d73);
   padding: 32px 64px;
 }
 .icone00 {
@@ -124,6 +120,7 @@ header {
 main {
   display: flex;
   padding: 40px 70px;
+  color: #998da6;
 }
 
 .linha {
